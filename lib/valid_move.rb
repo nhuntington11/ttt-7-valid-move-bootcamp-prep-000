@@ -1,6 +1,6 @@
 def valid_move?(board, index)
   if index <= 8
-    if position_taken?(board, index)
+    if position_taken?(board, index) == false
       true
     end
   else
