@@ -1,5 +1,10 @@
-def valid_move?
-
+def valid_move?(board, index)
+  if move <= 8
+    if position_taken?(board, index)
+      true
+    end
+  else
+    false
 end
 
 
